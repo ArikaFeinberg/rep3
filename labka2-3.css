@@ -1,0 +1,23 @@
+.pegesamub {
+    position: relative;
+    border: 2px solid #d6d1d1;
+    margin: 3%;
+    overflow: hidden;
+    width: 558x;
+    height: 325px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  .pegesamub img {
+    max-width: 100%;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  
+  .pegesamub:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
